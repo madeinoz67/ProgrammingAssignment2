@@ -37,6 +37,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ##              If the inverse has already been calculated 
 ##              (and the matrix has not changed), then cacheSolve will 
 ##              retrieve the inverse from the cached matrix object.
+##
+##  Assumptions:  Matrix is a Square Matrix
 ## 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
